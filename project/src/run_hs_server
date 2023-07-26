@@ -2,3 +2,5 @@
 
 cd /server
 cabal run
+# this file is the entrypoint for the docker image
+# which runs the server executable when the container is started
