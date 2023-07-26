@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# test_run
+
+# with local mountpoint
+# bash hs_server
+
+# with no actual mountpoint
+#bash hs_server ./no_path
+
+# with TEST_SRC_DIRECTORY
+START=`pwd`
+TEST_SRC_DIRECTORY=`cd tests; pwd`
+cd ${START}
+cd ..
+echo $TEST_SRC_DIRECTORY
+sleep 1
+bash hs_server $TEST_SRC_DIRECTORY

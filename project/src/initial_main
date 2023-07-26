@@ -1,0 +1,24 @@
+{-# LANGUAGE OverloadedStrings #-}
+import qualified Data.ByteString as B
+import qualified Data.ByteString.Lazy.Char8 as LBCS
+import qualified Data.Map.Strict as Map
+import Data.Maybe (fromMaybe,mapMaybe)
+import Data.Text (pack,strip,unpack)
+import Data.Text.Encoding (decodeUtf8)
+import Network.HTTP.Types (status200)
+import Network.HTTP.Types.Header (hContentType)
+import Network.Wai (Request,rawPathInfo,rawQueryString,requestMethod,responseLBS)
+import Network.Wai.Handler.Warp (run)
+import System.Directory (canonicalizePath,setCurrentDirectory,getCurrentDirectory,listDirectory,doesDirectoryExist,createDirectory,removeDirectory,doesFileExist)
+import System.FilePath ((</>),addTrailingPathSeparator,takeFileName,makeRelative,takeExtension)
+import Text.PrettyPrint (render)
+import qualified Text.PrettyPrint as PP
+import System.IO (readFile)
+import Data.List (isPrefixOf)
+import Control.Monad (foldM)
+import System.FilePath.Find (find,always,fileType,FileType(RegularFile),(==?))
+import Data.List.Split (splitOn)
+import Data.Bool (bool)
+
+main = do
+  putStrLn "\ninitial main\n"

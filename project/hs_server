@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# hs_server
+
+# requires docker and sed, note wrapper only works on macOS or Linux
+
+# will build a docker container and run it mounting the fullpath passed as a parameter
+# if no parameter is passed the repository directory wil be mounted 
+
+# bash hs_server <HOST_DIRECTORY_TO_MOUNT>
+# examples:
+# bash hs_server /Users/mac/Downloads/test
+# bash hs_server 
+
+# open a web browser and go to :  localhost:3001
+
+HOST_DIRECTORY_TO_MOUNT=${1}
+
+[[ ${HOST_DIRECTORY_TO_MOUNT} == "" ]] && HOST_DIRECTORY_TO_MOUNT=.
+[[ ! -d generated ]] && mkdir -p generated
+sed "s!TARGET_MOUNT_POINT!${HOST_DIRECTORY_TO_MOUNT}!g" src/routes > generated/modified_routes
+
+echo "
+open a web browser and go to :  http://localhost:3001
+"
+
+export DOCKER_BUILDKIT=1
+cp src/hs_server.dockerfile Dockerfile
+docker build -t hs_server_di:latest .
+docker run                          \
+-it                                 \
+-p 3001:3001                        \
+-v ${HOST_DIRECTORY_TO_MOUNT}:/hd   \
+hs_server_di:latest
+
+[[ -e Dockerfile ]] && rm Dockerfile
+[[ -d generated ]]  && rm -rf generated
+
+# if you lots of partial docker image builds, you can clean them up with:
+
+# docker rmi -f $(docker images  --filter "dangling=true" -q --no-trunc)
