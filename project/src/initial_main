@@ -1,3 +1,5 @@
+-- this file is to allow building with docker 
+-- without running the server in the process of building
 {-# LANGUAGE OverloadedStrings #-}
 import qualified Data.ByteString as B
 import qualified Data.ByteString.Lazy.Char8 as LBCS
