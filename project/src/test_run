@@ -10,6 +10,7 @@
 
 # with TEST_SRC_DIRECTORY
 START=`pwd`
+[[ ! -d tests ]] && mkdir -p tests
 TEST_SRC_DIRECTORY=`cd tests; pwd`
 cd ${START}
 cd ..
