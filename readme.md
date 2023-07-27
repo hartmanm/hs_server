@@ -27,3 +27,8 @@ example:
 ```bash
 bash hs_server /Users/mac/Downloads/test
 ```
+
+Then open a browser and navigate to:  
+```
+http://localhost:3001
+```
