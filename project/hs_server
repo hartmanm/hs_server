@@ -5,7 +5,7 @@
 # requires docker and sed, note wrapper only works on macOS or Linux
 
 # will build a docker container and run it mounting the fullpath passed as a parameter
-# if no parameter is passed the repository directory wil be mounted 
+# if no parameter is passed the repository directory will be mounted 
 
 # bash hs_server <HOST_DIRECTORY_TO_MOUNT>
 # examples:
