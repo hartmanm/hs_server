@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Copyright (c) 2023 Michael Neill Hartman. All rights reserved.
+
 # test_run
 
 # with local mountpoint

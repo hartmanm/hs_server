@@ -1,4 +1,5 @@
 #!/bin/bash
+# Copyright (c) 2023 Michael Neill Hartman. All rights reserved.
 
 cd /server
 cabal run

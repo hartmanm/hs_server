@@ -1,3 +1,4 @@
+-- Copyright (c) 2023 Michael Neill Hartman. All rights reserved.
 -- this file is to allow building with docker 
 -- without running the server in the process of building
 {-# LANGUAGE OverloadedStrings #-}

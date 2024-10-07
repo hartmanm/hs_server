@@ -1,5 +1,5 @@
-
-FROM   ubuntu:jammy AS with_haskell
+# Copyright (c) 2023 Michael Neill Hartman. All rights reserved.
+FROM   ubuntu-minimal:noble AS with_haskell
 RUN    apt-get update -y
 RUN    apt-get install haskell-platform -y
 RUN    cabal update

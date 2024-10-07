@@ -1,4 +1,4 @@
-
+# Copyright (c) 2023 Michael Neill Hartman. All rights reserved.
 FROM   ubuntu:jammy AS with_haskell
 RUN    apt-get update -y
 RUN    apt-get install haskell-platform -y

@@ -1,3 +1,7 @@
+/copyright              <html><br>Copyright (c) 2023 Michael Neill Hartman. All rights reserved.<br></html>
+
+/copyright              "Copyright (c) 2023 Michael Neill Hartman. All rights reserved."
+
 /target_directory       hd
 
 /mounted_volume         TARGET_MOUNT_POINT

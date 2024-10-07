@@ -1,3 +1,4 @@
+-- Copyright (c) 2023 Michael Neill Hartman. All rights reserved.
 {-# LANGUAGE OverloadedStrings #-}
 import qualified Data.ByteString as B
 import qualified Data.ByteString.Lazy.Char8 as LBCS

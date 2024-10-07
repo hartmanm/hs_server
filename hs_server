@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Copyright (c) 2023 Michael Neill Hartman. All rights reserved.
+
 # hs_server
 
 # requires docker and sed, note wrapper only works on macOS or Linux
