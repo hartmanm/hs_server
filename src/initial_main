@@ -1,4 +1,7 @@
 -- Copyright (c) 2023 Michael Neill Hartman. All rights reserved.
+-- mnh_license@proton.me
+-- https://github.com/hartmanm
+
 -- this file is to allow building with docker 
 -- without running the server in the process of building
 {-# LANGUAGE OverloadedStrings #-}

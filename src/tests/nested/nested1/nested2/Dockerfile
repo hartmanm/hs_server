@@ -1,4 +1,7 @@
 # Copyright (c) 2023 Michael Neill Hartman. All rights reserved.
+# mnh_license@proton.me
+# https://github.com/hartmanm
+
 FROM   ubuntu:jammy AS with_haskell
 RUN    apt-get update -y
 RUN    apt-get install haskell-platform -y
