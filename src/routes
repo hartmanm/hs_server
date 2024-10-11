@@ -16,3 +16,4 @@
 
 /help                   this file is for adding : <br>  /linkname   html_content    <br> to the server without additional files <br> to add html flatten to a single line <br> it is also used as a key value store
 
+/link_page              https://github.com/hartmanm/link_page
