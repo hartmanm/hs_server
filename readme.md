@@ -25,7 +25,7 @@ bash hs_server <HOST_DIRECTORY_FULLPATH_TO_MOUNT>
 example:
 
 ```bash
-bash hs_server /Users/mac/Downloads/test
+bash hs_server src
 ```
 
 Then open a browser and navigate to:  
