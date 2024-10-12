@@ -27,37 +27,40 @@ If a commercial, educational or government licensee is found to be in violation 
 6. Methods and Architecture\
 The Software may include specific methods, processes, and architectural designs. Licensee acknowledges that these elements are proprietary to the Licensor and agrees not to replicate, distribute, or otherwise use the methods or architecture in whole or part outside the scope of this Agreement.
 
-7. Restrictions\
+7. Algorithms, Ideas, and Scripts\
+Licensee acknowledges that the Software may embody proprietary algorithms, ideas, and scripts developed by the Licensor. Licensee agrees not to use, replicate, or distribute the algorithms, ideas, or scripts outside the scope of this Agreement.
+
+8. Restrictions\
 Licensee shall not:\
 Modify, translate, distribute, rent, lease, or sell the Software.\
 Use the Software on more than one physical machine.\
 Use the Software in more than one virtual machine or container.\
 Use the Software for any unlawful purpose.
 
-8. Ownership\
+9. Ownership\
 The Software is licensed, not sold. Licensor retains all rights, title, and interest in the Software, including all intellectual property rights.
 
-9. Modification of License\
+10. Modification of License\
 Licensor may modify this license at any time, unless specifically restricted by a separate license agreement.
 
-10. Termination\
+11. Termination\
 This Agreement is effective until terminated. Licensee may terminate this Agreement at any time by destroying all copies of the Software. Licensor may terminate this Agreement at any time. Upon termination, Licensee must cease all use of the Software and destroy all copies.
 
-11. Disclaimer of Warranty\
+12. Disclaimer of Warranty\
 The Software is provided "as is," without warranty of any kind, express or implied. Licensor does not warrant that the Software will meet Licensee's requirements or that its operation will be uninterrupted or error-free.
 
-12. Limitation of Liability\
+13. Limitation of Liability\
 In no event shall Licensor be liable for any damages arising from the use of or inability to use the Software, even if Licensor has been advised of the possibility of such damages.
 
-13. Contact Information\
+14. Contact Information\
 The contact information for this Agreement be modified at any time by the Licensor by the modification of the resource:\
 [https://github.com/hartmanm/mnh_license/blob/main/contact_information.md](https://github.com/hartmanm/mnh_license/blob/main/contact_information.md)
 
-14. Forking\
+15. Forking\
 Licensee acknowledges that anyone can fork the Software on [https://github.com](https://github.com) \
 Forking creates a copy of the Software to which this Agreement applies. This License shall be included in and applied to any forked versions of the Software.
 
-15. Entire Agreement\
+16. Entire Agreement\
 This Agreement constitutes the entire agreement between the parties regarding the Software and supersedes all prior agreements and understandings, unless specifically restricted by a separate license agreement listed in: \
 [https://github.com/hartmanm/mnh_license/blob/main/commercial_educational_and_government_licensees.md](https://github.com/hartmanm/mnh_license/blob/main/commercial_educational_and_government_licensees.md)\
 By installing, copying, or using the software, methods, or architecture ("Software") in whole or part, Licensee acknowledges that they have read, understood, and agreed to be bound by the terms of this Agreement.
